@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Module</title>
+    <link rel="stylesheet" href="hui.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Module</h1>
+        <nav>
+            <ul>
+                <li><a href="hai.html">Home</a></li>
+                <li><a href="academic.html">Academic Module</a></li>
+                <li><a href="user-portal.html">User Portal</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="study-material.html">Study Material</a></li>
+                <li><a href="examination.html">Examination</a></li>
+                <li><a href="communication.html">Communication</a></li>
+                <li><a href="report.html">Report</a></li>
+                <li><a href="research.html">Research</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Admin Functions</h2>
+        <section>
+            <h3>Add HoD</h3>
+            <form id="add-hod-form">
+                <label for="hod-name">HoD Name:</label>
+                <input type="text" id="hod-name" name="hod-name" required>
+                <button type="submit">Add HoD</button>
+            </form>
+        </section>
+        <section>
+            <h3>HoD List</h3>
+            <ul id="hod-list"></ul>
+        </section>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
